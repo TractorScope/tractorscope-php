@@ -1,0 +1,27 @@
+{
+  "name": "tractorscope/tractorscope-php",
+  "description": "Test PHP Library",
+  "keywords": [
+    "data visualization",
+    "BI",
+    "charts",
+    "embed"
+  ],
+  "homepage": "https://tractorscope.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tractorscope PHP Library",
+      "homepage": "https://github.com/tractorscope/tractorscope-php"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tractorscope\\": "src/"
+    }
+  }
+}
